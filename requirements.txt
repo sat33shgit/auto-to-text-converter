@@ -1,0 +1,9 @@
+# Audio to Text Converter - Requirements
+# Main speech recognition engine
+openai-whisper
+
+# Optional: For creating test audio files
+pyttsx3
+
+# Note: All other dependencies are Python built-in libraries:
+# - http.server, threading, json, base64, tempfile, os, urllib, traceback
