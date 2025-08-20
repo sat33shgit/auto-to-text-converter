@@ -1,0 +1,16 @@
+# Meeting Notes AI Analyzer Requirements
+
+# Core dependencies
+python-docx==0.8.11
+
+# AI model options (install as needed)
+ollama==0.1.7          # For local Ollama AI models
+openai==1.3.0          # For OpenAI GPT models
+
+# Optional enhancements
+spacy==3.7.2           # For advanced entity extraction
+transformers==4.35.0   # For local transformer models
+torch==2.1.0           # For local AI models
+
+# Alternative for simple local processing (no additional deps needed)
+# The script works with just python-docx for basic functionality

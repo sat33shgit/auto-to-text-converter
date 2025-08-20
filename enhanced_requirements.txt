@@ -1,0 +1,19 @@
+# Enhanced Audio to Text Converter Requirements
+
+# Core speech recognition (primary engine)
+openai-whisper
+
+# Optional: For creating test audio files
+pyttsx3
+
+# Built-in Python libraries (no installation needed):
+# - http.server (for web interface)
+# - threading (for background processing)
+# - json (for data exchange)
+# - base64 (for audio encoding)
+# - queue (for live transcription)
+# - tempfile (for temporary audio files)
+# - os, urllib, traceback (utilities)
+
+# Note: The enhanced converter uses only Python built-in libraries
+# plus Whisper for maximum compatibility and minimal dependencies
